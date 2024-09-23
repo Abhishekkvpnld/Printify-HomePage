@@ -2,6 +2,10 @@
     background: #f7f7f7;
     width: 100vw;
     height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .copyright{
@@ -9,4 +13,21 @@
     line-height: 18px;
     font-size: 13px;
     font-weight: 400;
+}
+
+.footer_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+a{
+    font-size: 13px;
+    cursor: pointer;
+    color: #949494;
+}
+
+a:hover{
+    color: #29ab51;
 }

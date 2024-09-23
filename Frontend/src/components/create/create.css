@@ -1,0 +1,44 @@
+.create_page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  height: 100vh;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.create_title_div {
+  width: 60%;
+}
+
+.create_title {
+  height: 250px;
+}
+
+.create_title ul {
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.create_title h1 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #17262b;
+}
+
+.create_image {
+}
+
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: medium;
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+}

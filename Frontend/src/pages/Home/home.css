@@ -1,7 +1,7 @@
-.home_div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
+.home_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
